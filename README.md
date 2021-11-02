@@ -1,2 +1,2 @@
 # nicolo.works
-Prototype static portfolio webpage.
+Prototype static portfolio webpage for myself.
