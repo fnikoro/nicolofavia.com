@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideInFromAbove {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.navigation {
+    background-color: rgb(194, 96, 39);
+}
+
+.cc {
+    color: #f7ffd4;
+    background-color: #363636;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.main {
+    font-family: 'Nunito', sans-serif;
+    color: #e2fd97;
+}
+
+.content h3 {
+    font-family: 'Nunito', sans-serif;
+    color: #e2fd97;
+}
+
+.content p {
+    font-family: 'Nunito', sans-serif;
+    text-shadow: 3px 3px 3px #252525;
+}
+
+#studies {
+    line-height: 18px;
+}
+
+#npic {
+    border-top: #7d7d7d
+}
+
+#name {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+#surname {
+    color: #e2fd97;
+}
+
+#contacts a{
+    color: #e2fd97;
+}
+
+@media(max-width: 767px) {
+    .main {
+        border-bottom: 1px solid;
+        border-color: darkgray;
+        animation: 0.5s ease-out 0s 1 slideInFromAbove;
+    }
+
+    .content {
+        animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    }
+
+    #studies {
+        line-height: 25px;
+    }
+}
+
+@media(min-width: 768px) {
+    .main {
+        animation: 0.5s ease-out 0s 1 slideInFromLeft;
+    }
+
+    .content {
+        animation: 0.5s ease-out 0s 1 slideInFromAbove;
+    }
+}
