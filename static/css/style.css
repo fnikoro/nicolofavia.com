@@ -69,6 +69,30 @@
     color: #e2fd97;
 }
 
+a:link {
+    color: #e2fd97;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #d7ff6a;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ecffb8;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: #e2fd97;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
 @media(max-width: 991px) {
     .main {
         border-bottom: 1px solid;
